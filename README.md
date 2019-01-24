@@ -10,9 +10,9 @@ In particular, it includes:
 * Flow as type checker
 * SASS support
 
-# How to run
+# How to use
 
-After putting all the content in your desired repository, execute:
+After putting all the content (including .* files) in your desired repository, execute:
 
 ```
 yarn install && yarn start
@@ -22,6 +22,29 @@ If you like it to be a git repository, execute
 ```
 git init
 ```
+
+A minified production bundle is build with
+```
+yarn build
+```
+
+and can be found in the dist folder.
+
+Tests can be executed via
+
+```
+yarn test
+```
+
+and will test all files with the tests/ directory. The pattern to identify tests can be adapted
+within the package.json
+
+For flow-type checking, execute
+
+```
+yarn flow
+```
+
 
 Prerequisites:
 - node
