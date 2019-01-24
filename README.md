@@ -22,7 +22,7 @@ If you like the new folder where you copied the files to to be a git repository,
 ```
 git init
 ```
-Your first commit can then be the basic setup and you are off to start your project!
+Your first commit can then be the basic setup and you are off to start your project!  
 ATTENTION: Delete the also copied .git/ repo before `git init` to start a new git history.
 
 -----
