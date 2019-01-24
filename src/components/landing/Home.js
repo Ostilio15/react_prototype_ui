@@ -1,9 +1,14 @@
 import React from 'react';
+import { FormattedMessage } from "react-intl";
 
 
 const Home = () => (
   <div>
-    <h2> Home </h2>
+      <h2>
+          <FormattedMessage
+              id="home_message"
+              defaultMessage="Home" />
+      </h2>
   </div>
 );
 

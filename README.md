@@ -5,10 +5,15 @@ In particular, it includes:
 * webpack (build tool) config for building production bundle and developing locally
 * babel for ES6 to ES5 translation
 * React + React-Router example code
+* Support of internalization with react-intl
 * React-bootstrap
 * Jest as testing framework
 * Flow as type checker
 * SASS support
+
+### Prerequisites:
+- node
+- yarn / npm
 
 # How to use
 
@@ -49,7 +54,7 @@ For flow-type checking, execute
 yarn flow
 ```
 
+# Notes / Hints
 
-Prerequisites:
-- node
-- yarn / npm
+Verify yourself that the message changes in development mode when entering url:
+`http://localhost:8080/?lang=de` vs `http://localhost:8080/?lang=en`
