@@ -18,10 +18,14 @@ After putting all the content (including .* files) in your desired repository, e
 yarn install && yarn start
 ```
 
-If you like it to be a git repository, execute
+If you like the new folder where you copied the files to to be a git repository, execute
 ```
 git init
 ```
+Your first commit can then be the basic setup and you are off to start your project!
+ATTENTION: Delete the also copied .git/ repo before `git init` to start a new git history.
+
+-----
 
 A minified production bundle is build with
 ```
